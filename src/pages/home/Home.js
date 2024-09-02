@@ -4,7 +4,7 @@ import './Home.css';
 function Home() {
   return (
     <div className="home">
-        <p className="test">Test paragraph</p>
+        <p className="test">home paragraph</p>
     </div>
   );
 }
