@@ -1,5 +1,6 @@
-/* add code later */ 
-.changeLater{
+.leftTab{
     height: 100vh; /* 100% of the viewport height */
-    width: 15vw;  /* 100% of the viewport width */
+    width: 15vw;  /* 15% of the viewport width */
+    position:fixed; 
+    font-family: Arial, Helvetica, sans-serif;
 }

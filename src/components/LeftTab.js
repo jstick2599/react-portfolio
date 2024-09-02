@@ -3,11 +3,12 @@ import './LeftTab.css';
 
 function LeftTab() {
   return (
-    <div className="changeLater">
-        <h2 className='test'>Home</h2>
-        <h2 className='test'>Skills</h2>
-        <h2 className='test'>Projects</h2>
-        <h2 className='test'>Experience</h2>
+    <div className="leftTab">
+        <h1 className='test'>JS</h1>
+        <h3 className='test'>Home</h3>
+        <h3 className='test'>Skills</h3>
+        <h3 className='test'>Projects</h3>
+        <h3 className='test'>Experience</h3>
     </div>
   );
 }

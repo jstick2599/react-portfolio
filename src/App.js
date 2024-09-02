@@ -7,13 +7,11 @@ import LeftTab from './components/LeftTab.js';
 function App() {
   return (
     <div className="App">
-      <div className='tab'> 
-        <LeftTab></LeftTab>
-      </div>
+      <LeftTab />
       <div className='pages'>
-        <Home></Home>
-        <Skills></Skills>
-        <Projects></Projects>
+        <Home />
+        <Skills />
+        <Projects />
       </div>
     </div>
   );
