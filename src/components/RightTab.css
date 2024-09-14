@@ -1,0 +1,25 @@
+.rightTabDiv{
+    position:fixed; 
+    display:flex; 
+    right:0; 
+    top:0; 
+    z-index: 10;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.linkedin{
+    width:34px; 
+    margin-top: 1.5rem;
+    margin-right:1rem;
+}
+
+.github{
+    width:40px;
+    margin-right:1rem;
+}
+.moon{
+    width:35px; 
+    margin-right: 3rem;
+    margin-top:500%;
+}

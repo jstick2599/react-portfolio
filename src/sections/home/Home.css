@@ -1,33 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
-/* Imported google font apis to use Paprika font */
-
-.home{
+.home {
   height: 100vh; /* 100% of the viewport height */
-  width: 85vw;  /* 100% of the viewport width */
-  display:flex;
-
+  width: 100vw;  /* 85% of the viewport width */
+  display: flex;
+  justify-content: center; /* Centers the flex items horizontally */
+  align-items: center; /* Centers the flex items vertically */
 }
-.bio{
-  height: 100vh;
-  width: 50vw;
+
+.bio {
   font-family: 'Paprika', sans-serif;
+  margin-top: 100px; 
+  width: auto;  /* Adjusts to content width */
+  text-align: center; /* Centers all text inside .bio */
+  display: flex;
+  flex-direction: column; /* Aligns content vertically */
+  justify-content: flex-start; /* Pushes content toward the top */
+  align-items: center; /* Centers items horizontally */
+  padding-left:10%;
+  position:relative;
+}
+.nameParagraphDiv{
+ 
+  font-weight: bold;
+  border:3px solid black; 
+  height:35vh; 
+  width:35vw; 
   
+}
 
-} 
-.name{
+.name {
   font-size: 48px;
-  margin: 0 auto;
-  margin-top:10%;
-  font-weight:bold; 
-}
-.objective{
-  font-size: 32px;
-  /* margin: 0 auto;
-  margin-top:10%; */
+  margin-top: 10%; /* Adjust margin to control vertical spacing */
+
+
 
 }
-.color{
+
+.objective {
+  font-size: 24px;
+  padding-left:19%;
+  padding-right:19%;
+}
+
+.color {
   height: 100vh;
-  width:50vw;
+  width: 100vw;
   background-color: #B4D9EF;
+  /* display: flex; */
+  position: relative;
+  z-index: 1; /* Lower z-index */
+
+
+}
+
+/* .image {
+  overflow: hidden;
+} */
+
+.selfie {
+  width: 500px;
+  height: 518px;
+  position: absolute; /* Allow positioning beyond the parent */
+  top: 50px; /* Adjust to control vertical overflow */
+  left: -15%; /* Move the image to overflow into the bio section */
 }

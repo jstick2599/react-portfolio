@@ -1,11 +1,12 @@
-.App {
+ .App {
   text-align: center;
   display:flex;
 }
-.pages{
+/* .pages{
 
   margin-left:15vw;
-}
+} */
+
 
 .App-logo {
   height: 40vmin;

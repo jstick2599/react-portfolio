@@ -3,9 +3,8 @@ import './LeftTab.css';
 
 function LeftTab() {
   return (
-    <div className="leftTab">
+    <div className="leftTabDiv">
         <h1 className='sections'>JS</h1>
-        <h3 className='sections'>Home</h3>
         <h3 className='sections'>Skills</h3>
         <h3 className='sections'>Projects</h3>
         <h3 className='sections'>Experience</h3>

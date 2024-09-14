@@ -1,5 +1,7 @@
-/* .skills{
-    
-    position: absolute;
-    left: 0;
-} */
+.skills{
+    height: 100vh; /* 100% of the viewport height */
+    width: 100vw;  /* 100% of the viewport width */
+    display:flex;
+    background-color: #B4D9EF;
+    overflow-x: hidden;
+}

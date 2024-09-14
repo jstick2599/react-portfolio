@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
 /* Imported google font apis to use Paprika font */
-.leftTab{
-    height: 100vh; /* 100% of the viewport height */
-    width: 15vw;  /* 15% of the viewport width */
+.leftTabDiv{
+    /*height: 100vh;  100% of the viewport height */
+    /*width: 15vw;   15% of the viewport width */
     position:fixed; 
     font-family: 'Paprika', sans-serif;
+    margin-left:2%;
 }
 .sections{
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
