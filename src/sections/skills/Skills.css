@@ -13,6 +13,7 @@
 .skillsTitle {
     width:100vw; 
     margin: 0;
+    margin-top:2%;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -27,23 +28,30 @@
     flex-direction: row;
     padding: 2%;
   }
-.skillsDiv, .api{
+.skillsDiv{
     padding:2%; 
     background-color: white;
     border-radius: 40px;
     width:12%;
-    height:4%;
+    height:60px;
     
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.javaLogo, .gitLogo, .javaScriptLogo, .reactLogo{
+.javaLogo, .javaScriptLogo, .reactLogo, .api, .figmaLogo{
     width:130px;
     height:100px; 
     
 }
+.gitLogo{
+    width:200px;
+    height:100px; 
+}
 .api{
     color:#0094FF; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

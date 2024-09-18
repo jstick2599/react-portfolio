@@ -21,8 +21,12 @@ const Skills = forwardRef((props, ref) => {
           <div className='skillsDiv'>
             <img src="/imageLinks/git-logo.png" alt="Git Logo" className='gitLogo'/>
           </div>
-          <div className='skillsDiv'>Figma</div>
-          <div className='api'>{"{REST API}"}</div>
+          <div className='skillsDiv'>
+            <img src="/imageLinks/figma.png" alt="Figma Logo" className='figmaLogo'/> 
+          </div>
+          <div className='skillsDiv'>
+            <h2 className='api'>{"{REST API}"}</h2>
+          </div>
         </div>
         <div className="row3">
           <div className='skillsDiv'>CSS</div>
