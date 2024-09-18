@@ -17,13 +17,50 @@
     justify-content: center;
     align-items: center;
   }
-.row1{
+
+.row1 {
+    background-color: #B4D9EF; /* Blue background for the row */
     display: flex;
+    justify-content: center;
+    gap: 10%; /* Adds space between the skill blocks */
     flex-direction: row;
+    padding: 2%;
+  }
+.java, .react, .javascript{
+    padding:2%; 
+    background-color: white;
+    border-radius: 40px;
+    width:12%;
+    height:4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reactLogo{
+    width: 55%; /* Make sure the image fits within the div */
+    height:auto; 
+}
+.javaScriptLogo{
+    width: 55%; /* Make sure the image fits within the div */
+    height:auto; 
+}
+.javaLogo{
+    /* width:100px;
+    height:100px;  */
+    width: 55%; /* Make sure the image fits within the div */
+    height:auto; 
+    
+    
 }
 .row2{
     display: flex;
     flex-direction: row;
+}
+.api{
+    width: 55%; /* Make sure the image fits within the div */
+    height:auto; 
+    color:#0094FF; 
+
 }
 .row3{
     display: flex;

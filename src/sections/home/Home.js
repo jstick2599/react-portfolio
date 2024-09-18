@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect ,forwardRef } from 'react';
 import './Home.css';
 import GlitchClip from 'react-glitch-effect/core/GlitchClip';
 
-function Home() {
+const Home = forwardRef((props, ref) => {
   const [isMatrix, setIsMatrix] = useState(true);
 
   useEffect(() => {
@@ -14,7 +14,7 @@ function Home() {
   }, [isMatrix]);
 
   return (
-    <div className="home">
+    <div className="home" ref={ref}>
       <div className="bio">
         <div className='nameParagraphDiv'>
           {isMatrix
@@ -30,7 +30,7 @@ function Home() {
       </div>
     </div>
   );
-}
+});
 
 
 export default Home;

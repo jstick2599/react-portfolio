@@ -5,8 +5,26 @@
     /*width: 15vw;   15% of the viewport width */
     position:fixed; 
     font-family: 'Paprika', sans-serif;
-    margin-left:2%;
+    margin-left:1.5%;
+    pointer-events: auto;
+    z-index: 1000;
 }
-.sections{
+
+
+
+.sections {
+    cursor: pointer; /* Ensure the cursor changes to pointer on hover */
     margin-top: 3rem;
+    pointer-events: auto; /* Ensure individual sections are clickable */
+
+}
+
+button.sections {
+    cursor: pointer; /* Ensure the cursor changes to pointer on hover */
+    padding: 10px 20px; /* Add padding to increase the clickable area */
+    border: none; /* Remove default button border */
+    background-color: transparent; /* Transparent background for visual style */
+    font-size: 1.2rem;
+    margin-top: 3rem;
+   
 }
