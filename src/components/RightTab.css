@@ -23,3 +23,17 @@
     margin-right: 3rem;
     margin-top:500%;
 }
+.popup {
+    position: absolute;
+    bottom: -2%; /* Position below the moon image */
+    right:80%; 
+    transform: translateX(-10%);
+    background-color: rgba(0, 0, 0, 0.4); /* Dark semi-transparent background */
+    color: white;
+    padding: 2px;
+    border-radius: 2px;
+    z-index: 100; /* Ensure the popup appears in front */
+    width: 200px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }

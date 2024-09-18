@@ -5,7 +5,24 @@ import './Skills.css';
 function Skills(){
   return (
     <div className="skills">
-        <p className="skillsTest">skills paragraph</p>
+      <h1 className="skillsTitle">My Skills</h1>
+      <div className="rows">
+        <div className='row1'>
+          <div>Java</div>
+          <div>JavaScript</div>
+          <div>React</div>
+        </div>
+        <div className='row2'>
+          <div>Git</div>
+          <div>Figma</div>
+          <div>{"{REST API}"}</div>
+        </div>
+        <div className='row3'>
+          <div>CSS</div>
+          <div>HTML</div>
+          <div>C++</div>
+        </div>
+      </div>
     </div>
   )};
 
