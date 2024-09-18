@@ -7,25 +7,27 @@ const Skills = forwardRef((props, ref) => {
       <h1 className="skillsTitle">My Skills</h1>
       <div className="rows">
         <div className="row1">
-          <div className="java">
+          <div className="skillsDiv">
             <img src="/imageLinks/java-logo.png" alt="Java Logo" className='javaLogo'/>
           </div>
-          <div className="javascript">
+          <div className="skillsDiv">
             <img src="/imageLinks/javascript-logo.png" alt="JavaScript Logo" className='javaScriptLogo'/>
           </div>
-          <div className="react">
+          <div className="skillsDiv">
             <img src="/imageLinks/react-logo.png" alt="React Logo" className='reactLogo'/>
           </div>
         </div>
         <div className="row2">
-          <div>Git</div>
-          <div>Figma</div>
+          <div className='skillsDiv'>
+            <img src="/imageLinks/git-logo.png" alt="Git Logo" className='gitLogo'/>
+          </div>
+          <div className='skillsDiv'>Figma</div>
           <div className='api'>{"{REST API}"}</div>
         </div>
         <div className="row3">
-          <div>CSS</div>
-          <div>HTML</div>
-          <div>C++</div>
+          <div className='skillsDiv'>CSS</div>
+          <div className='skillsDiv'>HTML</div>
+          <div className='skillsDiv'>C++</div>
         </div>
       </div>
     </div>
