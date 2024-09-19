@@ -21,7 +21,6 @@
 .nameParagraphDiv{
  
   font-weight: bold;
-  border:3px solid black; 
   height:35vh; 
   width:35vw; 
   
@@ -48,7 +47,6 @@
 .color {
   height: 100vh;
   width: 100vw;
-  background-color: #B4D9EF;
   position: relative;
   z-index: 1; /* Lower z-index */
 

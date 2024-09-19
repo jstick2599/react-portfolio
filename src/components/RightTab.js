@@ -2,9 +2,9 @@ import React, {useEffect, useState} from 'react';
 import './RightTab.css';
 
 
-function RightTab() {
+function RightTab({ theme, setTheme }){
   const [isHover, setIsHover]=useState(false);
-  const [theme, setTheme] = useState(true); //true=light mode, false=dark mode
+  
   const handleMouseOver = () => {
     setIsHover(true);
     console.log("testing");

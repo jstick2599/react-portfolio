@@ -1,12 +1,12 @@
-import React from 'react';
+import React, {forwardRef} from 'react';
 import './Experience.css';
 
-function Experience() {
+const Experience = forwardRef((props, ref) => {
   return (
-    <div className="experience">
+    <div className="experience" ref={ref}>
         <p className="experienceTest">Experience</p>
     </div>
-  );
-}
+);
+});
 
 export default  Experience;
