@@ -27,17 +27,15 @@ function RightTab() {
 
   return (
     <div className="rightTabDiv">
-        <img src="/imageLinks/github-logo.png" alt="github logo" className='github'/>
-        <img src="/imageLinks/linkedin-logo.png" alt="linkedin logo" className='linkedin'/>
-        {theme ?<img src="/imageLinks/moon-logo.png" alt="moon logo" className='moon' onClick={handleMoonClick} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}/>
-        :<img src="/imageLinks/sun-logo.png" alt="sunlogo" className='sun' onClick={handleSunClick} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}/>
-  }
-        
-          {isHover && <div className="hover">
-            <h4 className='popup'>Toggle Theme</h4>
-            </div> }
-     
-      
+      <img src="/imageLinks/github-logo.png" alt="github logo" className='github'/>
+      <img src="/imageLinks/linkedin-logo.png" alt="linkedin logo" className='linkedin'/>
+      <div className='themeLogo'>
+      {theme ?<img src="/imageLinks/moon-logo.png" alt="moon logo" className='moon' onClick={handleMoonClick} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}/>
+      :<img src="/imageLinks/sun-logo.png" alt="sun logo" className='sun' onClick={handleSunClick} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}/>}
+      {isHover && <div className="hover">
+        <h4 className='popup'>Toggle Theme</h4>
+      </div> }
+      </div>
     </div>
       
   );

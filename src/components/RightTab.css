@@ -1,39 +1,53 @@
-.rightTabDiv{
-    position:fixed; 
-    display:flex; 
-    right:0; 
-    top:0; 
-    z-index: 10;
+.rightTabDiv {
+    position: fixed; 
+    display: flex;
     flex-direction: column;
-    margin-top: 3rem;
+    justify-content: space-between; /* Space between elements (GitHub/LinkedIn at the top, sun/moon at the bottom) */
+    align-items: center; /* Center elements horizontally */
+    right: 2%; /* Position the container to the right side of the page */
+    top: 0;
+    z-index: 10;
+    padding: 1rem 0;
 }
 
-.linkedin{
-    width:34px; 
-    margin-top: 1.5rem;
-    margin-right:1rem;
+.linkedin, .github {
+    width: 34px;
+    margin-bottom: 1.5rem; /* Space between LinkedIn and GitHub */
 }
 
-.github{
-    width:40px;
-    margin-right:1rem;
+.github {
+    width: 40px;
 }
-.moon{
-    width:35px; 
-    margin-right: 3rem;
-    margin-top:500%;
+
+.themeLogo {
+    display: flex;
+    justify-content: center; /* Center the moon/sun inside the container */
+    width: 50px; /* Fixed width to prevent layout shift */
 }
+
+.moon {
+    width: 35px;
+    cursor: pointer;
+    margin-top:60vh; 
+}
+
+.sun {
+    width: 35px;
+    cursor: pointer;
+    transform: scale(2); /* Scales the sun 2 times bigger */
+    margin-top:60vh;
+}
+
 .popup {
     position: absolute;
-    bottom: -3%; /* Position below the moon image */
-    right:88%; 
-    transform: translateX(-10%);
+    bottom: 0px; /* Position below the moon/sun image */
+    right: 50px;
     background-color: rgba(0, 0, 0, 0.4); /* Dark semi-transparent background */
     color: white;
-    padding: 2px;
-    border-radius: 2px;
-    z-index: 100; /* Ensure the popup appears in front */
-    width:130px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    z-index: 100;
+    width: 130px;
     text-align: center;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-  }
+}
