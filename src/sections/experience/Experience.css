@@ -8,7 +8,6 @@
 
 }
 .verticalLine {
-    border-left: 2px solid black; /* or border-right */
     height: 70vh; /* Adjust the height as needed */
     margin-top:7.4%;
     position:absolute;
@@ -59,6 +58,20 @@
   .rightSide{
     background-color: #B4D9EF;
     width:50vw; 
+  }
+  .experienceTitle{
+    border: 3px solid black; 
+    font-weight: bold;
+    height:40vh; 
+    width:30vw; 
+    margin-top:25%;
+    margin-left:7%;
+    background-color: white;
+    
+  }
+  .software, .timeline{
+    margin-top:10%;
+    font-weight: lighter;
   }
   
   

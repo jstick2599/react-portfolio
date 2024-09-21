@@ -20,8 +20,8 @@ function App() {
       <div className='pages' >
         <Home ref={homeRef} theme={theme}/>
         <Skills  ref={skillsRef} theme={theme}/>
-        <Projects ref={projectsRef}/>
-        <Experience ref={experienceRef}/>
+        <Projects ref={projectsRef} theme={theme}/>
+        <Experience ref={experienceRef} theme={theme}/>
       </div>
     </div>
   );

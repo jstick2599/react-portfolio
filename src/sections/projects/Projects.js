@@ -1,9 +1,13 @@
 import React, {forwardRef} from 'react';
 import './Projects.css';
 
-const Projects = forwardRef((props, ref) => {
+const Projects = forwardRef(({theme, props, ref}) => {
+  const projectsStyle = {
+    backgroundColor: theme ? '#B4D9EF' : '#050816', // Set color based on theme state 
+    color: theme ? 'black' : 'white',
+  };
   return (
-    <div className="projects" ref={ref}>
+    <div className="projects" ref={ref} style={projectsStyle}>
         <h1 className="projectsTitle">Projects</h1>
         <div className='projectsContent'>
           <div className='projectsImage'>

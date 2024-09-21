@@ -40,7 +40,9 @@ const Skills = forwardRef(({theme, props, ref}) => {
           <div className='skillsDiv'>
             <img src="/imageLinks/html-logo.png" alt="HTML Logo" className='htmlLogo'/> 
           </div>
-          <div className='skillsDiv'>C++</div>
+          <div className='skillsDiv'>
+            <img src="/imageLinks/c++.jfif" alt="C++ Logo" className='cppLogo'/>
+          </div>
         </div>
       </div>
     </div>
