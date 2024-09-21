@@ -4,7 +4,6 @@
     display: flex;
     height: 100vh; /* 100% of the viewport height */
     width: 100vw;  /* 100% of the viewport width */
-    background-color: #B4D9EF;
     overflow-x: hidden;
     font-family: 'Paprika', sans-serif;
     flex-direction: column;
@@ -21,7 +20,6 @@
 
 
 .row1, .row2, .row3 {
-    background-color: #B4D9EF; /* Blue background for the row */
     display: flex;
     justify-content: center;
     gap: 10%; /* Adds space between the skill blocks */
@@ -46,8 +44,16 @@
     
 }
 .gitLogo{
-    width:200px;
+    width:170px;
     height:100px; 
+}
+.cssLogo{
+    width:50%;
+    height:110px; 
+}
+.htmlLogo{
+    width:60%;
+    height:110px; 
 }
 .api{
     color:#0094FF; 

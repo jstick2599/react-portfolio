@@ -1,9 +1,14 @@
 import React, { forwardRef } from 'react';
 import './Skills.css';
 
-const Skills = forwardRef((props, ref) => {
+const Skills = forwardRef(({theme, props, ref}) => {
+  console.log("theme is ", theme);
+  const skillsStyle = {
+    backgroundColor: theme ? '#B4D9EF' : '#050816', // Set color based on theme state 
+    color: theme ? 'black' : 'white',
+  };
   return (
-    <div className="skills" ref={ref}> {/* Attach the ref here */}
+    <div className="skills" ref={ref} style={skillsStyle}> {/* Attach the ref here */}
       <h1 className="skillsTitle">My Skills</h1>
       <div className="rows">
         <div className="row1">
@@ -29,8 +34,12 @@ const Skills = forwardRef((props, ref) => {
           </div>
         </div>
         <div className="row3">
-          <div className='skillsDiv'>CSS</div>
-          <div className='skillsDiv'>HTML</div>
+          <div className='skillsDiv'>
+            <img src="/imageLinks/css-logo.png" alt="CSS Logo" className='cssLogo'/> 
+          </div>
+          <div className='skillsDiv'>
+            <img src="/imageLinks/html-logo.png" alt="HTML Logo" className='htmlLogo'/> 
+          </div>
           <div className='skillsDiv'>C++</div>
         </div>
       </div>

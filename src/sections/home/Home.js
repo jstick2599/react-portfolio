@@ -3,6 +3,7 @@ import './Home.css';
 import GlitchClip from 'react-glitch-effect/core/GlitchClip';
 
 const Home = forwardRef(({ theme, props, ref }) => {
+  console.log("theme is ",theme);
   const [isMatrix, setIsMatrix] = useState(true);
 
   useEffect(() => {

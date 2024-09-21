@@ -19,7 +19,7 @@ function App() {
       <RightTab theme={theme} setTheme={setTheme}/>
       <div className='pages' >
         <Home ref={homeRef} theme={theme}/>
-        <Skills  ref={skillsRef}/>
+        <Skills  ref={skillsRef} theme={theme}/>
         <Projects ref={projectsRef}/>
         <Experience ref={experienceRef}/>
       </div>
