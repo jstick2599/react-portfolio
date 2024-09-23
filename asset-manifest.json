@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.9f4f3b50.css",
-    "main.js": "/static/js/main.f6c0beeb.js",
-    "static/js/453.78b57cc2.chunk.js": "/static/js/453.78b57cc2.chunk.js",
-    "index.html": "/index.html",
-    "main.9f4f3b50.css.map": "/static/css/main.9f4f3b50.css.map",
-    "main.f6c0beeb.js.map": "/static/js/main.f6c0beeb.js.map",
-    "453.78b57cc2.chunk.js.map": "/static/js/453.78b57cc2.chunk.js.map"
+    "main.css": "/jstick2599.github.io/react-portfolio/static/css/main.9f4f3b50.css",
+    "main.js": "/jstick2599.github.io/react-portfolio/static/js/main.77fb0705.js",
+    "static/js/453.78b57cc2.chunk.js": "/jstick2599.github.io/react-portfolio/static/js/453.78b57cc2.chunk.js",
+    "index.html": "/jstick2599.github.io/react-portfolio/index.html",
+    "main.9f4f3b50.css.map": "/jstick2599.github.io/react-portfolio/static/css/main.9f4f3b50.css.map",
+    "main.77fb0705.js.map": "/jstick2599.github.io/react-portfolio/static/js/main.77fb0705.js.map",
+    "453.78b57cc2.chunk.js.map": "/jstick2599.github.io/react-portfolio/static/js/453.78b57cc2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9f4f3b50.css",
-    "static/js/main.f6c0beeb.js"
+    "static/js/main.77fb0705.js"
   ]
 }
