@@ -1,7 +1,7 @@
 import React, {forwardRef} from 'react';
 import './Experience.css';
 
-const Experience = forwardRef(({theme, props, ref}) => {
+const Experience  = forwardRef(({props, theme}, ref) => {
     const experienceStyle = {
         backgroundColor: theme ? 'white' : '#050816', // Set color based on theme state 
       };

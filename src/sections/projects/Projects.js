@@ -1,7 +1,7 @@
 import React, {forwardRef} from 'react';
 import './Projects.css';
 
-const Projects = forwardRef(({theme, props, ref}) => {
+const Projects  = forwardRef(({props, theme}, ref) => {
   const projectsStyle = {
     backgroundColor: theme ? '#B4D9EF' : '#050816', // Set color based on theme state 
     color: theme ? 'black' : 'white',

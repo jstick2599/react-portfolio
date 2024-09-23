@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import './Skills.css';
 
-const Skills = forwardRef(({theme, props, ref}) => {
+const Skills = forwardRef(({props, theme}, ref) => {
   console.log("theme is ", theme);
   const skillsStyle = {
     backgroundColor: theme ? '#B4D9EF' : '#050816', // Set color based on theme state 
