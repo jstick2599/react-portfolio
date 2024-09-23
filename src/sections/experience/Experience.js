@@ -37,18 +37,20 @@ const Experience  = forwardRef(({props, theme}, ref) => {
                 <img src="/imageLinks/croppedDiamond.jpg" alt="Diamond bullet point" className='diamond' style={diamondStyle}/>
                 <p className='thirdBullet'> Created tests to make the programs more robust. Developed new architecture for Java coding documentation to optimize user performance</p>
             </div>
-           
+            <h3 className="websiteToolLine">Made with React . Joshua Stickles 2024</h3>
 
         </div>
+        
         <div className='rightSide' style={rightSideStyle}>
             <div className='experienceTitle'>
                 <h1 className='workExperience'>Work Experience</h1>
                 <h2 className='software'>Software Engineer at Raytheon</h2>
                 <h2 className='timeline'>March 2023-July 2024</h2>
             </div>
+          
         </div>
        
- 
+        
 
 
         
