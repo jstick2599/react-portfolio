@@ -40,7 +40,6 @@ const Home = forwardRef(({props, theme}, ref) => {
       <div className='color' style={colorStyle}>
         <img align="left" src={selfie}  alt="My Portrait" className='selfie'/>
       </div>
-      <h1>Delete soon</h1>
     </div>
   );
 
