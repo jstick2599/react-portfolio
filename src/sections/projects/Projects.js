@@ -1,4 +1,7 @@
 import React, {forwardRef} from 'react';
+import education from "../../imageLinks/education-project.png";
+import encapsulate from "../../imageLinks/encapsulate.png";
+import keysight from "../../imageLinks/keysight-dashboard.png";
 import './Projects.css';
 
 const Projects  = forwardRef(({props, theme}, ref) => {
@@ -12,11 +15,11 @@ const Projects  = forwardRef(({props, theme}, ref) => {
         <div className='projectsContent'>
           <div className='projectsImage'>
             <h1 className='educationTitle'>Education Project</h1>
-            <img src="../../../public/imageLinks/education-project.png" alt="Education Project" className='educationProject'/>
+            <img src={education} alt="Education Project" className='educationProject'/>
             <h1 className='encapsulateTitle'>Encapsulate</h1>
-            <img src="../../../public/imageLinks/encapsulate.png" alt="Encapsulate Project" className='encapsulateProject'/>
+            <img src={encapsulate} alt="Encapsulate Project" className='encapsulateProject'/>
             <h1 className='keysightTitle'>Keysight</h1>
-            <img src="../../../public/imageLinks/keysight-dashboard.png" alt="Keysight Project" className='capstoneProject'/>
+            <img src={keysight} alt="Keysight Project" className='capstoneProject'/>
           </div>
           <div className='projectsDescription'>
             <h2 className='educationDescription'>Education-themed full-stack web application built during UC Merced's HackMerced 2022 hackathon. It was built using ReactJS and Spring Boot</h2>
