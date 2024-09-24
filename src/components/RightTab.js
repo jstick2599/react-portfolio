@@ -27,9 +27,8 @@ function RightTab({ theme, setTheme }){
 
   return (
     <div className="rightTabDiv">
-      <div>delete soon</div>
       <a href="https://github.com/jstick2599">
-        <img src="../../public/imageLinks/github-logo.png" alt="github logo" className='github'/>
+        <img src="/imageLinks/github-logo.png" alt="github logo" className='github'/>
       </a>
       <a href="https://www.linkedin.com/in/joshua-stickles-980b60195/">
         <img src="../../public/imageLinks/linkedin-logo.png" alt="linkedin logo" className='linkedin'/>

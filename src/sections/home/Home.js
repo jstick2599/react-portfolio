@@ -1,6 +1,7 @@
 import React, { useState, useEffect ,forwardRef } from 'react';
 import './Home.css';
 import GlitchClip from 'react-glitch-effect/core/GlitchClip';
+import selfie from '../../imageLinks/self-portrait.png';
 
 const Home = forwardRef(({props, theme}, ref) => {
   console.log("theme is ",theme);
@@ -37,7 +38,7 @@ const Home = forwardRef(({props, theme}, ref) => {
         <p className='objective'>Hi, I am a software engineer who loves to design and develop websites. I am interested in a full stack or frontend web development position.</p>
       </div>
       <div className='color' style={colorStyle}>
-        <img align="left" src="../../../public/imageLinks/self-portrait.png" alt="My Portrait" className='selfie'/>
+        <img align="left" src={selfie}  alt="My Portrait" className='selfie'/>
       </div>
     </div>
   );
