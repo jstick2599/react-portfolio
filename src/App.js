@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="App">
-      <LeftTab homeRef={homeRef} skillsRef={skillsRef} projectsRef={projectsRef} experienceRef={experienceRef} theme={theme}/>
+      <LeftTab homeRef={homeRef} skillsRef={skillsRef} projectsRef={projectsRef} experienceRef={experienceRef} theme={theme}/> 
       <RightTab theme={theme} setTheme={setTheme}/>
       <div className='pages' >
         <Home ref={homeRef} theme={theme}/>
@@ -23,6 +23,7 @@ function App() {
         <Projects ref={projectsRef} theme={theme}/>
         <Experience ref={experienceRef} theme={theme}/>
       </div>
+    
     </div>
   );
 }

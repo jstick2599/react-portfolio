@@ -1,13 +1,17 @@
  .App {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh; /* Ensures the height spans the full viewport */
+  position: relative;
   text-align: center;
   display:flex;
 }
-/* .pages{
 
-  margin-left:15vw;
+/* .tab{
+  position:absolute;
+  top:0;
+  right: 0;
 } */
-
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;

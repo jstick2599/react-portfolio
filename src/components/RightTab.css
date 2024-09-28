@@ -8,17 +8,16 @@
     top: 0;
     z-index: 10;
     padding: 1rem 0;
+
 }
 
-.linkedin, .github {
-    width: 34px;
-    margin-bottom: 1.5rem; /* Space between LinkedIn and GitHub */
+img.github {
+    width: 50px;
 }
-
-.github {
-    width: 40px;
+img.linkedin {
+    width: 50px;
 }
-
+  
 .themeLogo {
     display: flex;
     justify-content: center; /* Center the moon/sun inside the container */
@@ -26,13 +25,13 @@
 }
 
 .moon {
-    width: 35px;
+    width: 50px;
     cursor: pointer;
     margin-top:60vh; 
 }
 
 .sun {
-    width: 35px;
+    width: 50px;
     cursor: pointer;
     transform: scale(2); /* Scales the sun 2 times bigger */
     margin-top:60vh;
