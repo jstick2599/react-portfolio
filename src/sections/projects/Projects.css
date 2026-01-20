@@ -34,7 +34,7 @@
 .educationTitle, .encapsulateTitle, .keysightTitle{
     font-weight: lighter;
 }
-.educationDescription, .encapsulateDescription, .keysightDescription{
+.verseFactsDescription, .encapsulateDescription, .keysightDescription{
     font-weight:lighter;
    
 }
@@ -48,7 +48,7 @@
     /* padding-right:30%; 
     margin-left:10%;  */
 }
-.educationProject{
+.verseFactsProject{
     height:22%;
 }
 .encapsulateProject{

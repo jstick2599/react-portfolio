@@ -32,6 +32,7 @@
   .firstBullet, .secondBullet, .thirdBullet{
     margin-top:2%;
     padding-right:10%;
+    justify-content: left;
   }
 
   .diamond{
